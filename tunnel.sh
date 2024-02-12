@@ -1,6 +1,6 @@
 #!/bin/bash
 #							#
-#    Simple script to create/kill ansible tunnels	#
+#    script to create/kill ansible tunnels		#
 #		by gdaskalakis				#
 #							#
 #							#
@@ -11,7 +11,7 @@
 scriptpath="/opt/scripts/"
 action=$1
 active_tunnels=`pgrep -lf tunnel | grep -i ssh | wc -l`
-echo "Current date is: `date +"%d:%m:%Y %H:%M:%S"`"
+echo -e "Date is: `date +"%d:%m:%Y %H:%M:%S"`\n"
 echo "There are $active_tunnels active tunnels right now"
 echo
 ps afux | grep -iv grep | grep -i "zenith_*"
