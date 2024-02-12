@@ -1,6 +1,6 @@
 #!/bin/bash
 #							#
-#    script to create/kill ansible tunnels		#
+#    Script to create/kill ansible tunnels		#
 #		by gdaskalakis				#
 #							#
 #							#
